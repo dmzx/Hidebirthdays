@@ -1,0 +1,27 @@
+{
+	"name": "dmzx/hidebirthdays",
+	"type": "phpbb-extension",
+	"description": "Display birthdays only when there is a birthday.",
+	"homepage": "http://www.dmzx-web.net",
+	"version": "1.0.0",
+	"time": "2015-05-25",
+	"keywords": ["phpbb", "extension", "Hide Birthdays"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "dmzx",
+			"homepage": "http://www.dmzx-web.net",
+			"email": "info@dmzx-web.net",
+			"role": "Extension Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Hide Birthdays",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.2,<3.2.*@dev"
+		}
+	}
+}
